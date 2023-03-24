@@ -1,3 +1,5 @@
+import Counter from collections
+
 class Solution:
     def intersect(self, nums1: List[int], nums2: List[int]) -> List[int]:
         c = Counter(nums1)
@@ -9,6 +11,7 @@ class Solution:
         return output
 
 
-n1 = [1,2,3]
+n1 = [1,2,3,4]
 n2 = [1,1]
+
 print(intersect(n1, n2))
